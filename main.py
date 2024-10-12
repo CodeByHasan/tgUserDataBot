@@ -10,7 +10,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Initialize bot and dispatcher
-bot = Bot(token=os.environ.get('TOKEN'))
+bot = Bot('TOKEN')
 dp = Dispatcher()
 
 @dp.message(Command(commands=['start']))

@@ -1,2 +1,2 @@
-aiogram==2.23.1
-flask
+aiogram==3.0.0  # Specify the latest version if needed
+keep_alive  # Include keep_alive if you're using it
