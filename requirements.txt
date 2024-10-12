@@ -1,2 +1,3 @@
-aiogram==3.0.0  # Specify the latest version if needed
-keep_alive  # Include keep_alive if you're using it
+aiogram==3.0.0
+Flask==2.3.2
+keep_alive
